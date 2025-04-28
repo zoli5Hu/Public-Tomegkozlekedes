@@ -1,0 +1,109 @@
+
+.container {
+    width: 80%;
+    max-height: 90vh;
+    overflow-y: auto;
+    margin: 0 auto;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+}
+
+.jaratok-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+    justify-items: center;
+}
+
+.jarat-box {
+    width: 150px;
+    height: 100px; /
+    line-height: 100px;
+    margin: 0;
+    border: 1px solid #0077cc;
+    border-radius: 8px;
+    background-color: #e9f5ff;
+    font-size: 20px;
+
+    color: #0056b3;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.jarat-box:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+#uzenet {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .jaratok-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .jarat-box {
+        width: auto;
+        height: 80px;
+        line-height: 80px;
+        font-size: 16px;
+    }
+}
+table {
+    width: 100%;
+    overflow-x: auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+thead {
+    background-color: #0056b3;
+    color: #ffffff;
+    text-align: left;
+}
+
+thead th {
+    font-size: 20px;
+    padding: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+tbody td {
+    padding: 10px;
+    border: 1px solid #dddddd;
+}
+
+tbody tr:hover {
+    background-color: #e3f2fd;
+}
+
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+        display: block;
+        overflow-x: auto;
+    }
+    table {
+        font-size: 14px;
+    }
+}

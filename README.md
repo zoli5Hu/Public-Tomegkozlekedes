@@ -1,2 +1,1 @@
-# Public-Tomegkozlekedes
-Egyetemi adatbázis projekt
+# tomegkozlekedes

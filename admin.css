@@ -1,0 +1,239 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+.container {
+    width: 400px;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+
+h1 {
+    color: #0077cc;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus {
+    border-color: #0077cc;
+    box-shadow: 0 0 5px rgba(0, 119, 204, 0.5);
+}
+
+
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+button[type="submit"] {
+    background-color: #0077cc;
+    color: white;
+}
+
+button[type="submit"]:hover {
+    background-color: #005fa3;
+    opacity: 0.9;
+}
+
+button.back {
+    background-color: #333;
+    color: white;
+    margin-top: 10px;
+}
+
+button.back:hover {
+    background-color: #555;
+}
+
+p.success {
+    color: #34a853;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+p.error {
+    color: #ea4335;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+form {
+    margin-top: 10px;
+}
+
+form button.delete {
+    background-color: #d32f2f;
+    color: #fff;
+}
+
+form button.delete:hover {
+    background-color: #a52727;
+}
+
+
+button.back {
+    background-color: #757575;
+    color: white;
+}
+
+button.back:hover {
+    background-color: #616161;
+}
+
+input[type="datetime-local"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="datetime-local"]:focus {
+    border-color: #0077cc;
+    box-shadow: 0 0 5px rgba(0, 119, 204, 0.5);
+    background-color: #ffffff;
+}
+
+.megallo-group {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+button.add-megallo {
+    background-color: #4caf50;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+button.add-megallo:hover {
+    background-color: #45a049;
+}
+
+button.delete-megallo {
+    background-color: #d32f2f;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: right;
+}
+
+button.delete-megallo:hover {
+    background-color: #a52727;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: left;
+    background-color: #f9f9f9;
+}
+
+table thead th {
+    background-color: #0077cc;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+table tbody td {
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #f4f4f9;
+}
+
+table tbody tr:hover {
+    background-color: #e0f7fa;
+}
+
+
+table.no-data {
+    text-align: center;
+    font-style: italic;
+    color: #767676;
+}
+
+.total-distance {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #0077cc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #333;
+}
+
+.total-distance h2 {
+    color: #0077cc;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.total-distance p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
